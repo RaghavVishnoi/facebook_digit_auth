@@ -1,3 +1,4 @@
+ require 'koala'
  class FacebookClient
  	
   def initialize(token)
@@ -130,7 +131,6 @@
 
   def friends_response
     @friends_response ||= client.get_connections("me", "friends?limit=5000")
-    puts @friends_response.inspect
     @friends_response ||= client.get_connections("me", "friends?limit=5000")
   end
 

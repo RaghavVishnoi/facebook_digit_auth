@@ -1,4 +1,6 @@
 require "facebook_digit_auth/version"
+require "facebook_client"
+require "digit_client"
 
 module FacebookDigitAuth 
  	class BestAuth
