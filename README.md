@@ -27,7 +27,7 @@ Or install it yourself as:
 
 ## Usage
 
-Use **FacebookDigitAuth::BestAuth.test_method(param1,param2)** where as: 
+Use **FacebookDigitAuth::BestAuth.access_data(param1,param2)** where as: 
 
 * **Facebook**
 
