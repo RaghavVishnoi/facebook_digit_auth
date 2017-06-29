@@ -16,7 +16,7 @@
   		"education": education,
   		"gender": gender,
   		"age": age,
-  		# "token_for_business": token_for_business,
+  		"token_for_business": token_for_business,
   		"facebook_friend_ids": facebook_friend_ids,
   		"profile_picture": profile_picture
 
