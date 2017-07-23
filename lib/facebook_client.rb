@@ -107,7 +107,7 @@
   attr_reader :client
 
   def basic_information
-    @basic_information ||= client.get_object("me",fields:'first_name,last_name,email,birthday,education,work,gender,token_for_business')
+    @basic_information ||= client.get_object("me",fields:'first_name,last_name,email,birthday,education,work,gender')
   end
 
   def user_context(facebook_user_id)
