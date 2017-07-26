@@ -7,7 +7,7 @@ TODO: Delete this and the text above, and describe your gem
 
 ## Why **facebook_digit_auth** gem?
 
-This gem is used once you are planning for facebook and twitter digits authentication together in same application so in case you just need to use same method with different parameters.
+This gem is used once you are planning for facebook, google and twitter digits authentication together in same application so in case you just need to use same method with different parameters.
 
 ## Installation
 
@@ -33,9 +33,17 @@ Use **FacebookDigitAuth::BestAuth.access_data(param1,param2)** where as:
 
 params1 => facebook_access_token
 
-`'EAAUQ633PzJwBAMyJnK3khk3RwAEggYWEm85uxTX4DVaMnD4olDysgbZCu8P1ZAONh4lZBBJblgx4IyNXsBkp5d7ZA8EKC8MjKHFt4Itsm1iBCz8gtx9nmH9Lw69XUA0GUcKrTNX2iy5Df5BQiAXZBszBETUATGdGu56SPVUTZCPoQlDbZAP....'`
+`'EAAUQ633PzJwBAMyJnK3khk3RwA....'`
 
 params2 => 'facebook'
+
+* **Google**
+
+params1 => gmail_access_token
+
+`ya29.GluUBFkxp2lf8QN...`
+
+params2 => 'google'
 
 * **Twitter Digits**
 
