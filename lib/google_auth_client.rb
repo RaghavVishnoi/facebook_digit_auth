@@ -1,4 +1,4 @@
-class GoogleAuth
+class GoogleAuthClient
 
 	def initialize(auth_token)
 		@auth_token = auth_token

@@ -10,7 +10,8 @@ module FacebookDigitAuth
 			elsif type == 'digit'
 				DigitsClient.new(params).data
 			elsif type == 'google'
-				GoogleAuth.new(params).data			
+
+				GoogleAuthClient.new(params).data			
 			end
 		end
 	end	
